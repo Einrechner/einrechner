@@ -133,7 +133,7 @@ function FieldControl({
     <div className="space-y-2">
       <Label htmlFor={id} className="text-base">
         {field.label}
-        {field.unit ? <span className="sr-only"> in {field.unit}</span> : null}
+        {field.unit ? <span className="sr-only">, Einheit {field.unit}</span> : null}
       </Label>
       {field.kind === "select" ? (
         <select
@@ -160,7 +160,7 @@ function FieldControl({
             spellCheck={false}
             aria-invalid={invalid || undefined}
             aria-describedby={hintId}
-            onChange={(event) => onChange(event.target.value)}
+            onValueChange={onChange}
             className={cn(
               "h-12 rounded-xl border-foreground/15 bg-background px-3 text-base md:text-base",
               field.unit && "pr-16",

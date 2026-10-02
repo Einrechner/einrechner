@@ -53,7 +53,7 @@ export function CatalogBrowser() {
               <Input
                 id="rechner-suche"
                 value={query}
-                onChange={(event) => setQuery(event.target.value)}
+                onValueChange={setQuery}
                 placeholder="z. B. Tapete, Mehrwertsteuer, Standby"
                 className="h-12 rounded-xl border-foreground/15 bg-card px-3 text-base md:text-base"
                 autoComplete="off"
