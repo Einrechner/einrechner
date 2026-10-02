@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div className="space-y-3">
           <p className="font-heading text-lg font-semibold">Einrechner</p>
           <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
-            Kostenlos und ohne Konto. Die Ergebnisse sind Orientierungshilfen für den Alltag, keine Steuer-,
+            Die Ergebnisse sind Orientierungshilfen für den Alltag, keine Steuer-,
             Rechts- oder Anlageberatung. Geldbeträge runden wir kaufmännisch auf den Cent, Stückzahlen auf ganze
             Gebinde auf.
           </p>

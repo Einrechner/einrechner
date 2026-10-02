@@ -34,8 +34,7 @@ export function CatalogBrowser() {
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-4 py-8 sm:py-12">
       <section className="grid items-end gap-8 lg:grid-cols-[minmax(0,1.4fr)_minmax(16rem,0.8fr)]">
         <div>
-          <p className="text-sm font-bold tracking-[0.16em] text-teal uppercase">Kostenlos und ohne Konto</p>
-          <h1 className="mt-3 font-heading text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">
+          <h1 className="font-heading text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">
             Einrechner
           </h1>
           <p className="mt-3 max-w-xl font-heading text-2xl leading-snug text-foreground sm:text-3xl">
@@ -43,7 +42,7 @@ export function CatalogBrowser() {
           </p>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
             Kreditrate, Stromkosten, Farbeimer oder Grundpreis: trag die Zahlen ein und sieh das Ergebnis sofort,
-            dazu die Formel in Klartext und einen Praxistipp. Der Katalog wächst, die Nutzung bleibt frei.
+            dazu die Formel in Klartext und einen Praxistipp. Der Katalog wächst.
           </p>
           <form className="mt-6 max-w-xl" role="search" onSubmit={(event) => event.preventDefault()}>
             <Label htmlFor="rechner-suche" className="text-base">

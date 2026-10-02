@@ -21,11 +21,11 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   title: {
-    default: "Einrechner — kostenlose Alltagsrechner",
+    default: "Einrechner — Alltagsrechner",
     template: "%s · Einrechner",
   },
   description:
-    "Kostenlose Rechner für Finanzen, Verbraucherfragen, Energiesparen, Heimwerken und Shopping. Sofort ein Ergebnis, die Formel dazu und ein Praxistipp. Ohne Konto.",
+    "Rechner für Finanzen, Verbraucherfragen, Energiesparen, Heimwerken und Shopping. Sofort ein Ergebnis, die Formel dazu und ein Praxistipp.",
 }
 
 export const viewport: Viewport = {

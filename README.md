@@ -1,6 +1,6 @@
 # Einrechner
 
-Kostenlose deutsche Alltagsrechner für Finanzen, Verbraucherfragen, Energiesparen, Heimwerken und Shopping. Jeder Rechner zeigt ein Sofortergebnis, die Formel in Klartext und einen Praxistipp. Ohne Konto.
+Deutsche Alltagsrechner für Finanzen, Verbraucherfragen, Energiesparen, Heimwerken und Shopping. Jeder Rechner zeigt ein Sofortergebnis, die Formel in Klartext und einen Praxistipp.
 
 ## Lokal starten
 
