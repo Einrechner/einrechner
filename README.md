@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Die App läuft danach auf [http://127.0.0.1:38471](http://127.0.0.1:38471).
+Die App läuft danach auf [http://127.0.0.1:3000](http://127.0.0.1:3000).
 
 ```bash
 npm test
